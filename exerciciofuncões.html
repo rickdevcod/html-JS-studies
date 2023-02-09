@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+
+<script>
+	function pulaLinha(){
+		document.write("<br>");
+		document.write("<br>");
+	}
+	
+function mostra(frase) {
+	document.write(frase); // a função mostrada acima, captura o parametro da função pra usar dentro do bloco dela e o parametro,só faz sentido se usar dentro do bloco, você também pode usar a função dentro de outra funcão 
+	pulaLinha();
+}
+
+var ano = 2016;
+mostra("Flávio tem " + (ano - 1977) + " anos" + "<br>");
+mostra("Joaquim tem " + (ano - 1992) + " anos" + "<br>");
+
+ano = 2017;
+mostra("Barney tem " + (ano - 1976) + " anos" + "<br>");
+mostra("Olá pessoal! ");
+</script>
